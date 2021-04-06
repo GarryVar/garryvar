@@ -1,0 +1,11 @@
+@import "main.css";
+@import "box-model.css";
+@import "variables.css";
+@import "container.css";
+
+@import "modules/header.css";
+@import "modules/project.css";
+@import "modules/nav.css";
+@import "modules/artist.css";
+@import "modules/toggle.css";
+@import "modules/states.css";

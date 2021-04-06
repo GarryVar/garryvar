@@ -1,0 +1,40 @@
+.bredcrumbs {
+  background-color: #535353;
+}
+
+.bredcrumbs__list {
+  display: flex;
+  overflow: hidden;
+}
+
+.bredcrumbs__link {
+  position: relative;
+  transition: ease-in-out 0.3ms;
+}
+
+.bredcrumbs__link::after {
+  content: "";
+
+  position: absolute;
+  top: 1px;
+  right: 0;
+
+  width: 28px;
+  height: 28px;
+
+  border-top: 1px solid #4d7198;
+  border-right: 1px solid #4d7198;
+
+  transform: rotate(45deg);
+}
+
+.bredcrumbs__link:hover.bredcrumbs__link::after {
+  right: -4px;
+}
+
+.bredcrumbs__link a {
+  color: #00acee;
+  font-size: 12px;
+
+  padding:  5px 20px;
+}

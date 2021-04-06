@@ -1,0 +1,62 @@
+.artist__release-title {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  color: var(--basic-dark-black);
+  background-color: var(--basic-red);
+}
+
+.artist__inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 20px;
+
+  min-height: 300px;
+}
+
+.artist__release-title h2 {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.artist__released,
+.artist__unreleased {
+  margin-bottom: 30px;
+  width: 100%;
+
+  color: var(--basic-white);
+}
+
+.artist__discography {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+
+@media(min-width: 768px) {
+  .artist__release-title {
+    justify-content: flex-start;
+  }
+
+  .artist__release-title h2 {
+    padding: 0 25px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .artist__release-title {
+    text-align: left;
+  }
+
+  .artist__release-title h2 {
+    margin: auto;
+    padding: 0 20px;
+    width: 1024px;
+  }
+}

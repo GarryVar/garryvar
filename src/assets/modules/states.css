@@ -1,0 +1,15 @@
+.hidden {
+  display: none;
+}
+
+.disabled {
+  background-color: #ebebeb;
+  color: gray;
+  box-shadow: none;
+}
+
+@media(min-width: 768px) {
+  .hidden {
+    display: block;
+  }
+}

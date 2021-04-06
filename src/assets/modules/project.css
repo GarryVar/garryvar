@@ -1,0 +1,125 @@
+.project {
+  text-transform: capitalize;
+}
+
+.project a {
+  font-family: 'Segoe UI Historic';
+  color: #f44336;
+}
+
+.project__title {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  margin-bottom: 10px;
+
+  text-align: left;
+}
+
+
+.project__track-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr;
+
+  margin: auto;
+}
+
+.project__tracks {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  background-color: #171717;
+  border: 1px solid var(--basic-dark-black);
+}
+
+.project__cover {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project__info {
+  flex-grow: 2;
+}
+.project__in-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  font-size: 20px;
+  text-align: center;
+}
+
+.project__sound {
+  margin-bottom: 10px;
+}
+
+.project__track-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project__track-name {
+  font-size: 18px;
+}
+
+@media(min-width: 480px) {
+  .project__track-list {
+    margin: 0;
+    width: auto;
+  }
+
+  .project__in-title {
+    font-size: 16px;
+  }
+
+  .project__info {
+    margin-left: 10px;
+  }
+
+  .project__cover {
+    width: 180px;
+  }
+}
+
+@media(min-width: 640px) {
+  .project__cover {
+    width: 250px;
+  }
+}
+
+@media(min-width: 768px) {
+
+  /*.project__info {*/
+  /*  margin-left: 0;*/
+  /*}*/
+
+  .project__cover {
+    width: 280px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project__track-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project__cover {
+    width: 200px;
+  }
+
+  .project__sound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 240px;
+  }
+}
