@@ -29,19 +29,13 @@
 
 .project__tracks {
   margin-bottom: 20px;
-  padding: 15px;
-
-  /*border-radius: 5px;
-  overflow: hidden;
-
-  background-color: #171717;
-  border: 1px solid var(--basic-dark-black);*/
 }
 
 .project__cover {
   display: flex;
   width: 100%;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .project__info {
@@ -60,8 +54,8 @@
 .project__sound {
   display: flex;
   align-items: center;
-  width: 100%;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 audio {
@@ -83,7 +77,13 @@ audio {
 
 .project__style,
 .project__year {
-  display: inline;
+  padding: 0 5px;
+
+  font-size: 10px;
+  order: -1;
+
+  background-color: var(--basic-dark-black);
+  border-radius: 3px;
 }
 
 
@@ -95,7 +95,6 @@ audio {
 
   .project__tracks {
     display: flex;
-
   }
 
   .project__in-title {
@@ -106,6 +105,14 @@ audio {
   .project__cover {
     margin: auto;
     max-width: 180px;
+  }
+
+  .project__track-name {
+    margin-bottom: 0;
+  }
+
+  .project__sound {
+    margin-bottom: 0;
   }
 
   .project__info {
@@ -134,6 +141,13 @@ audio {
     text-align: left;
     font-size: 20px;
   }
+
+}
+
+@media(min-width: 768px) {
+  .project__in-title {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -144,9 +158,8 @@ audio {
   .project__cover {
     margin: 0;
   }
-
   .project__in-title {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .project__sound {

@@ -10,7 +10,7 @@
 </head>
 
 	<body>
-		<header class="header">
+		<header class="header header--sticky">
 			<div class="header__wrapper">
 				<a class="header__logo" href="index.php">Garryvar.ru</a>
 
@@ -32,7 +32,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="<?= $nav_links['sounds'] ?>" class="nav__link nav__link--current">Sounds</a>
+              <a class="nav__link nav__link--current">Sounds</a>
             </li>
 					</ul>
 				</nav>
