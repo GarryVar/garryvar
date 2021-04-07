@@ -41,6 +41,9 @@
 
 /*Header toggle*/
 .header__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: 20px;
   width: 40px;
@@ -85,5 +88,13 @@
 
   .header__logo {
     margin: 0;
+  }
+}
+
+
+@media(min-width: 1300px) {
+  .header__wrapper {
+    margin: auto;
+    width: 1280px;
   }
 }

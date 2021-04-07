@@ -9,11 +9,11 @@
   }
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 1300px) {
   .container {
     margin: auto;
     padding: 0 20px;
-    width: 1024px;
+    width: 1280px;
   }
 }
 

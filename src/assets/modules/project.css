@@ -3,7 +3,6 @@
 }
 
 .project a {
-  font-family: 'Segoe UI Historic';
   color: #f44336;
 }
 
@@ -29,47 +28,64 @@
 }
 
 .project__tracks {
-  display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 20px;
   padding: 15px;
 
-  border-radius: 5px;
+  /*border-radius: 5px;
   overflow: hidden;
 
   background-color: #171717;
-  border: 1px solid var(--basic-dark-black);
+  border: 1px solid var(--basic-dark-black);*/
 }
 
 .project__cover {
+  display: flex;
   width: 100%;
   border-radius: 5px;
 }
 
 .project__info {
+  padding-top: 10px;
   flex-grow: 2;
+  margin-left: 10px;
 }
+
 .project__in-title {
-  margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
 
   font-size: 20px;
-  text-align: center;
 }
 
 .project__sound {
+  display: flex;
+  align-items: center;
+  width: 100%;
   margin-bottom: 10px;
+}
+
+audio {
+  width: 100%;
 }
 
 .project__track-info {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
   justify-content: space-between;
 }
 
 .project__track-name {
+  order: -1;
+  margin-bottom: 10px;
   font-size: 18px;
 }
+
+.project__style,
+.project__year {
+  display: inline;
+}
+
 
 @media(min-width: 480px) {
   .project__track-list {
@@ -77,33 +93,46 @@
     width: auto;
   }
 
-  .project__in-title {
-    font-size: 16px;
+  .project__tracks {
+    display: flex;
+
   }
 
-  .project__info {
-    margin-left: 10px;
+  .project__in-title {
+    margin-bottom: 0;
+    font-size: 18px;
   }
 
   .project__cover {
-    width: 180px;
+    margin: auto;
+    max-width: 180px;
+  }
+
+  .project__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-top: 0;
+  }
+
+  .project__track-info {
+    height: 100%;
   }
 }
 
 @media(min-width: 640px) {
   .project__cover {
-    width: 250px;
+    max-width: 200px;
   }
-}
 
-@media(min-width: 768px) {
+  .project__info {
+    margin-left: 20px;
+  }
 
-  /*.project__info {*/
-  /*  margin-left: 0;*/
-  /*}*/
-
-  .project__cover {
-    width: 280px;
+  .project__in-title {
+    text-align: left;
+    font-size: 20px;
   }
 }
 
@@ -113,13 +142,16 @@
   }
 
   .project__cover {
-    width: 200px;
+    margin: 0;
+  }
+
+  .project__in-title {
+    font-size: 16px;
   }
 
   .project__sound {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 240px;
   }
 }
