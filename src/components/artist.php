@@ -16,7 +16,7 @@
                   <img src="<?=$released_images_urls['dancing_mavka'] ?>" alt="cd compilation 'dancing mavka'">
                 </div>
                 <div class="project__info">
-                  <a class="project__in-title" href="<?=$dancing_mavka_url ?>">various - dancing mavka</a>
+                  <a class="project__in-title" href="<?= $released_title_urls['dancing_mavka']?>">various - dancing mavka</a>
                   <div class="project__track-info">
                     <div class="project__sound">
                       <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
@@ -37,7 +37,7 @@
                   <img src="<?=$released_images_urls['gamayun_tale'] ?>" alt="cd compilation 'gamayun tale'">
                 </div>
                 <div class="project__info">
-                  <a class="project__in-title" href="<?=$gamayun_tale_url ?>">various - Gamayun Tale</a>
+                  <a class="project__in-title" href="<?= $released_title_urls['gamayun_tale']?>">various - Gamayun Tale</a>
                   <div class="project__track-info">
                     <div class="project__sound">
                       <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
@@ -63,7 +63,7 @@
                   <img src="<?=$released_images_urls['spiritual_doping'] ?>" alt="cd compilation 'spiritual doping'">
                 </div>
                 <div class="project__info">
-                  <a class="project__in-title" href="<?=$spiritual_doping_url ?>">various - spiritual doping</a>
+                  <a class="project__in-title" href="<?= $released_title_urls['spiritual_doping']?>">various - spiritual doping</a>
                   <div class="project__track-info">
                     <div class="project__sound">
                       <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
@@ -84,7 +84,7 @@
                   <img src="<?= $released_images_urls['goa_meditation_vol3']?>" alt="cd compilation 'Goa Meditation vol3'">
                 </div>
                 <div class="project__info">
-                  <a class="project__in-title" href="<?=$goa_meditation_vol3 ?>">various - Goa Meditation vol.3</a>
+                  <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol3']?>">various - Goa Meditation vol.3</a>
                   <div class="project__track-info">
                     <div class="project__sound">
                       <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
