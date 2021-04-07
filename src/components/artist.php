@@ -19,7 +19,7 @@
                   <a class="project__in-title" href="<?=$dancing_mavka_url ?>">various - dancing mavka</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
@@ -40,7 +40,7 @@
                   <a class="project__in-title" href="<?=$gamayun_tale_url ?>">various - Gamayun Tale</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
@@ -66,7 +66,7 @@
                   <a class="project__in-title" href="<?=$spiritual_doping_url ?>">various - spiritual doping</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
@@ -87,7 +87,7 @@
                   <a class="project__in-title" href="<?=$goa_meditation_vol3 ?>">various - Goa Meditation vol.3</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
