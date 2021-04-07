@@ -100,6 +100,32 @@
               </li>
             </ol>
           </li>
+          <!--Shankey-->
+          <li class="project artist__project">
+            <h3 class="project__title">Shankey</h3>
+
+            <ol class="project__track-list">
+              <li class="project__tracks">
+                <div class="project__cover">
+                  <img src="<?=$released_images_urls['goa_meditation_vol2'] ?>" alt="cd compilation 'goa meditation vol2'">
+                </div>
+                <div class="project__info">
+                  <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol2']?>">various - Goa Meditation vol.2</a>
+                  <div class="project__track-info">
+                    <div class="project__sound">
+                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                      </audio>
+                    </div>
+                    <span class="project__track-name">Infinity in Infinity</span>
+                    <span class="project__style">Goa trance</span>
+                    <span class="project__year">2018</span>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </li>
         </ul>
       </div>
     <!--Unreleased tracks-->
