@@ -9,7 +9,7 @@
 	<title><?= $title ?></title>
 </head>
 
-	<body>
+	<body class="page">
 		<header class="header header--sticky">
 			<div class="header__wrapper">
 				<a class="header__logo" href="index.php">Garryvar.ru</a>

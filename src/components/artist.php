@@ -1,19 +1,18 @@
-<section class="artist">
-<!--<h1 class="artist__stat-title">Music Projects</h1>-->
-  <div class="artist__wrapper">
-    <!--Released tracks-->
-    <div class="artist__released">
-      <div class="artist__release-title">
+<section class="artist-page">
+  <!--Released tracks-->
+  <article class="artist">
+    <div class="artist__inner">
+      <div class="artist__status">
         <h2>Released tracks</h2>
       </div>
-      <div class="artist__inner container">
+
+      <div class="artist__content container">
         <ul class="artist__discography">
           <!--Jyotish-->
-          <li class="project artist__project">
+          <li class="project">
             <h3 class="project__title">Jyotish</h3>
-
             <ol class="project__track-list">
-              <li class="project__tracks">
+              <li class="project__track">
                 <div class="project__cover">
                   <img
                     src="<?=$released_images_urls['dancing_mavka'] ?>"
@@ -38,9 +37,7 @@
                   </div>
                 </div>
               </li>
-
-
-              <li class="project__tracks">
+              <li class="project__track">
                 <div class="project__cover">
                   <img
                     src="<?=$released_images_urls['gamayun_tale'] ?>"
@@ -67,12 +64,12 @@
               </li>
             </ol>
           </li>
-          <!--S.i.O.D-->
-          <li class="project artist__project">
-            <h3 class="project__title">S.i.O.D</h3>
 
+          <!--S.i.O.D-->
+          <li class="project">
+            <h3 class="project__title">S.i.O.D</h3>
             <ol class="project__track-list">
-              <li class="project__tracks">
+              <li class="project__track">
                 <div class="project__cover">
                   <img
                     src="<?=$released_images_urls['spiritual_doping'] ?>"
@@ -97,9 +94,7 @@
                   </div>
                 </div>
               </li>
-
-
-              <li class="project__tracks">
+              <li class="project__track">
                 <div class="project__cover">
                   <img
                     src="<?= $released_images_urls['goa_meditation_vol3']?>"
@@ -126,12 +121,13 @@
               </li>
             </ol>
           </li>
-          <!--Shankey-->
-          <li class="project artist__project">
-            <h3 class="project__title">Shankey</h3>
 
+
+          <!--Shankey-->
+          <li class="project">
+            <h3 class="project__title">Shankey</h3>
             <ol class="project__track-list">
-              <li class="project__tracks">
+              <li class="project__track">
                 <div class="project__cover">
                   <img
                     src="<?=$released_images_urls['goa_meditation_vol2'] ?>"
@@ -161,8 +157,10 @@
           </li>
         </ul>
       </div>
+
     </div>
-  </div>
+  </article>
+
   <!--Unreleased tracks-->
   <!--<div class="artist__unreleased">
     <h2 class="artist__release-title">Unreleased track</h2>
