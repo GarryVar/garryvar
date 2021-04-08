@@ -3,7 +3,7 @@
 
   display: flex;
   /*min-width: 60px;*/
-  height: 60px;
+  height: 50px;
 }
 
 .nav__link {
@@ -46,9 +46,9 @@
   transform: translateX(-50%);
 }
 
-.nav__link--current {
-  font-weight: bolder;
+.nav__link--current.nav__link::after {
   background-color: var(--basic-red);
+  transform: translateX(-50%);
 }
 
 @media (min-width: 768px) {
