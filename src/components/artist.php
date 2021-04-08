@@ -15,7 +15,11 @@
             <ol class="project__track-list">
               <li class="project__tracks">
                 <div class="project__cover">
-                  <img src="<?=$released_images_urls['dancing_mavka'] ?>" loding="lazy" alt="cd compilation 'dancing mavka'">
+                  <img
+                    src="<?=$released_images_urls['dancing_mavka'] ?>"
+                    srcset="<?=$released_images_urls['dancing_mavka_webp'] ?>"
+                    loding="lazy"
+                    alt="cd compilation 'dancing mavka'">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['dancing_mavka']?>">various - dancing mavka</a>
@@ -38,7 +42,11 @@
 
               <li class="project__tracks">
                 <div class="project__cover">
-                  <img src="<?=$released_images_urls['gamayun_tale'] ?>" loding="lazy" alt="cd compilation 'gamayun tale'">
+                  <img
+                    src="<?=$released_images_urls['gamayun_tale'] ?>"
+                    srcset="<?=$released_images_urls['gamayun_tale_webp'] ?>"
+                    loding="lazy"
+                    alt="cd compilation 'gamayun tale'">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['gamayun_tale']?>">various - Gamayun Tale</a>
@@ -66,7 +74,11 @@
             <ol class="project__track-list">
               <li class="project__tracks">
                 <div class="project__cover">
-                  <img src="<?=$released_images_urls['spiritual_doping'] ?>" loding="lazy" alt="cd compilation 'spiritual doping'">
+                  <img
+                    src="<?=$released_images_urls['spiritual_doping'] ?>"
+                    srcset="<?=$released_images_urls['spiritual_doping_webp'] ?>"
+                    loding="lazy"
+                    alt="cd compilation 'spiritual doping'">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['spiritual_doping']?>">various - spiritual doping</a>
@@ -89,7 +101,11 @@
 
               <li class="project__tracks">
                 <div class="project__cover">
-                  <img src="<?= $released_images_urls['goa_meditation_vol3']?>" loding="lazy" alt="cd compilation 'Goa Meditation vol3'">
+                  <img
+                    src="<?= $released_images_urls['goa_meditation_vol3']?>"
+                    srcset="<?= $released_images_urls['goa_meditation_vol3_webp']?>"
+                    loding="lazy"
+                    alt="cd compilation 'Goa Meditation vol3'">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol3']?>">various - Goa Meditation vol.3</a>
@@ -117,7 +133,11 @@
             <ol class="project__track-list">
               <li class="project__tracks">
                 <div class="project__cover">
-                  <img src="<?=$released_images_urls['goa_meditation_vol2'] ?>" loding="lazy" alt="cd compilation 'goa meditation vol2'">
+                  <img
+                    src="<?=$released_images_urls['goa_meditation_vol2'] ?>"
+                    srcset="<?= $released_images_urls['goa_meditation_vol2_webp']?>"
+                    loding="lazy"
+                    alt="cd compilation 'goa meditation vol2'">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol2']?>">various - Goa Meditation vol.2</a>
@@ -142,14 +162,7 @@
         </ul>
       </div>
     </div>
-
-
-
   </div>
-
-
-
-
   <!--Unreleased tracks-->
   <!--<div class="artist__unreleased">
     <h2 class="artist__release-title">Unreleased track</h2>

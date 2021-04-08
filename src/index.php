@@ -15,10 +15,19 @@
 	//Images links
 	$released_images_urls = [
 	  'dancing_mavka' => 'img/covers/released_dancing_mavka.jpg',
+	  'dancing_mavka_webp' => 'img/covers/released_dancing_mavka.webp',
+
     'gamayun_tale' => 'img/covers/released_gamayun_tale.jpg',
+    'gamayun_tale_webp' => 'img/covers/released_gamayun_tale.webp',
+
     'spiritual_doping' => 'img/covers/released_spiritual_doping.jpg',
+    'spiritual_doping_webp' => 'img/covers/released_spiritual_doping.webp',
+
     'goa_meditation_vol2' => 'img/covers/released_goa_meditation_vol2.jpg',
-    'goa_meditation_vol3' => 'img/covers/released_goa_meditation_vol3.jpg'
+    'goa_meditation_vol2_webp' => 'img/covers/released_goa_meditation_vol2.webp',
+
+    'goa_meditation_vol3' => 'img/covers/released_goa_meditation_vol3.jpg',
+    'goa_meditation_vol3_webp' => 'img/covers/released_goa_meditation_vol3.webp'
   ];
 
 
