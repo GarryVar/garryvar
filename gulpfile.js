@@ -10,6 +10,8 @@ const gulp = require('gulp'),
   del = require('del'),
   bs = require('browser-sync').create(),
   babel = require('gulp-babel'),
+  webp = require('gulp-webp'),
+  imagemin = require('gulp-imagemin'),
   terser = require('gulp-terser');
 
 
@@ -21,6 +23,30 @@ const host = {
     return `${this.serverDir}/${dir}`
   }
 };
+
+
+
+//Images
+const images = () => {
+  return gulp.src('src/img/**/*.{jpg, svg}')
+    .pipe(imagemin([
+      imagemin.optipng({optimizationLevel: 3}),
+      imagemin.mozjpeg({progressive: true}),
+      imagemin.svgo()
+    ]))
+    .pipe(gulp.dest(host.getPath('img')))
+};
+exports.images = images;
+
+
+
+//Webpi
+const webpi = () => {
+  return gulp.src('src/img/**/*.{jpg, jpeg}')
+    .pipe(webp({quality: 50}))
+    .pipe(gulp.dest('src/img'))
+};
+exports.webpi = webpi;
 
 
 
@@ -122,9 +148,6 @@ const sync = () => {
   gulp.watch('src/*.php', gulp.series(indexPhp, refresh));
   gulp.watch('src/components/**/*.php', gulp.series(componentsPhp, refresh));
 };
-exports.sync = sync;
-
-
 //Build
 const build = gulp.series(
   clean,
@@ -133,6 +156,9 @@ const build = gulp.series(
   styles,
   scripts,
   sync);
+
+
+exports.sync = sync;
 exports.build = build;
 
 
