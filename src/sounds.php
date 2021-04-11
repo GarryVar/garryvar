@@ -35,6 +35,8 @@ $released_title_urls = [
 ];
 
   require ('releses_bd.php');
+$current_page = '';
+$current_page_sound = 'nav__link--current';
   require ('components/header.php');
 
 /*$id = $_GET['release_id'];

@@ -12,9 +12,9 @@
 </head>
 
 	<body class="page">
-		<header class="header header--sticky">
+		<header class="header header--sticky <?=$header_start_bg?>">
 			<div class="header__wrapper">
-				<a class="header__logo" href="index.php">Garryvar.ru</a>
+				<a class="header__logo" href="home.php">Garryvar.ru</a>
 
 				<button class="header__toggle toggle" type="button">
           <svg class="toggle__icon" width="32" height="32">
@@ -26,7 +26,7 @@
 				<nav class="nav header__nav">
 					<ul class="nav__list">
 						<li class="nav__item">
-							<a href="home.php" class="nav__link">Home</a>
+							<a href="home.php" class="nav__link <?=$current_page?>">Home</a>
 						</li>
 
             <li class="nav__item">
@@ -34,7 +34,7 @@
             </li>
 
             <li class="nav__item">
-              <a class="nav__link" href="sounds.php">Sounds</a>
+              <a class="nav__link <?=$current_page_sound?>" href="sounds.php">Sounds</a>
             </li>
 					</ul>
 				</nav>
