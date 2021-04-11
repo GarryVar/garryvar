@@ -1,0 +1,20 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr min-content;
+
+  margin: 0;
+  padding: 0;
+
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+
+  background-color: var(--basic-simple-black);
+}
+
+.page__footer {
+  margin-top: auto;
+}

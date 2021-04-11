@@ -1,7 +1,6 @@
 .container {
   width: auto;
   padding: 0 20px;
-  min-height: 100vh;
 }
 
 @media(min-width: 768px) {
