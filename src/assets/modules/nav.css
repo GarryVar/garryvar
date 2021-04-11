@@ -25,7 +25,7 @@
   content: "";
 
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 50%;
 
 
@@ -46,8 +46,7 @@
   transform: translateX(-50%);
 }
 
-.nav__link--current {
-  font-weight: bolder;
+.nav__link--current.nav__link::after {
   background-color: var(--basic-red);
 }
 
