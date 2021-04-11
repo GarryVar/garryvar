@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/index.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 	<title><?= $title ?></title>
 </head>
@@ -24,17 +26,19 @@
 				<nav class="nav header__nav">
 					<ul class="nav__list">
 						<li class="nav__item">
-							<a href="<?= $nav_links['home']?>" class="nav__link">Home</a>
+							<a href="home.php" class="nav__link">Home</a>
 						</li>
 
             <li class="nav__item">
-              <a href="<?= $nav_links['sedona'] ?>" class="nav__link">Sedona</a>
+              <a class="nav__link" href="<?= $nav_links['sedona'] ?>">Sedona</a>
             </li>
 
             <li class="nav__item">
-              <a class="nav__link nav__link--current">Sounds</a>
+              <a class="nav__link" href="sounds.php">Sounds</a>
             </li>
 					</ul>
 				</nav>
 			</div>
 		</header>
+    <main>
+
