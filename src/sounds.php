@@ -35,9 +35,17 @@ $released_title_urls = [
 ];
 
   require ('releses_bd.php');
-$current_page = '';
-$current_page_sound = 'nav__link--current';
+  $current_page = '';
+  $current_page_sound = 'nav__link--current';
   require ('components/header.php');
+  require ('components/artist.php');
+
+  $footer_bg = 'footer--sounds';
+  require ('components/footer.php');
+
+
+
+
 
 /*$id = $_GET['release_id'];
 $cover_jpg = get_release_attribute($id, 'cover_jpg');
@@ -49,7 +57,3 @@ $track_name = get_release_attribute($id, 'track_name');
 $label = get_release_attribute($id, 'label');
 $style = get_release_attribute($id, 'style');
 $year = get_release_attribute($id, 'year');*/
-
-
-require ('components/artist.php');
-require ('components/footer.php');

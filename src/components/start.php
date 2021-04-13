@@ -8,7 +8,7 @@
         alt="Igor Varekhov">
     </div>
     <div class="home__title">
-      <p>Hi! my name is Igor and here's my personal web page</p>
+      <p>Hi! my name is Igor and I am a novice frontend developer</p>
     </div>
   </div>
 </section>

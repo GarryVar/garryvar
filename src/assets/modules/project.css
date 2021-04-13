@@ -80,10 +80,6 @@ audio {
   font-size: 18px;
 }
 
-.project__label {
-  display: inline;
-}
-
 .project__style,
 .project__year {
   padding: 0 5px;

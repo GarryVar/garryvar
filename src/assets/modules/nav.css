@@ -6,6 +6,10 @@
   height: 60px;
 }
 
+.nav__item--disabled a {
+  color: grey;
+}
+
 .nav__link {
   position: relative;
 
@@ -37,12 +41,11 @@
 
 .nav__link[href]:hover,
 .nav__link[href]:focus {
-  color: var(--basic-red);
+  opacity: 0.3;
 }
 
 .nav__link[href]:hover.nav__link::after,
 .nav__link[href]:focus.nav__link::after {
-  background-color: var(--basic-red);
   transform: translateX(-50%);
 }
 
