@@ -18,7 +18,7 @@
 
 				<button class="header__toggle toggle" type="button">
           <svg class="toggle__icon" width="32" height="32">
-            <use class="toggle__icon--menu" class="" xlink:href="img/sprite.svg#burger"></use>
+            <use class="toggle__icon--menu" xlink:href="img/sprite.svg#burger"></use>
             <use class="toggle__icon--close hidden" xlink:href="img/sprite.svg#close"></use>
           </svg>
         </button>
