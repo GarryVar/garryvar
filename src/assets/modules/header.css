@@ -42,6 +42,11 @@
   width: 100%;
 }
 
+.header__logo:hover,
+.header__logo:focus {
+  opacity: 0.4;
+}
+
 
 /*Header toggle*/
 .header__toggle {
