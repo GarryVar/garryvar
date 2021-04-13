@@ -1,16 +1,3 @@
-.page {
-  margin: 0;
-  padding: 0;
-
-  min-width: 320px;
-  min-height: 100vh;
-
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-
-  background-color: var(--basic-simple-black);
-}
-
 h1,
 h2,
 h3 {
@@ -44,7 +31,7 @@ ol {
 }
 
 main {
-  min-height: 100px;
+  height: 100%;
 }
 
 *:focus {

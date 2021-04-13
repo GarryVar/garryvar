@@ -21,18 +21,19 @@
                     alt="cd compilation 'dancing mavka'">
                 </div>
                 <div class="project__info">
-                  <a class="project__in-title" href="<?= $released_title_urls['dancing_mavka']?>">various - dancing mavka</a>
+                  <a class="project__in-title" href="<?= $released_title_urls['dancing_mavka']?>">Various - Dancing Mavka</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="<?=$released__tracks_urls['1000_little_indians'] ?>">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
                     </div>
                     <span class="project__track-name">1000 Little Indians</span>
                     <div class="project__track-stats">
-                      <span class="project__style">Goa trance</span>
-                      <span class="project__year">2011</span>
+                      <a class="project__label" href="#">Lookinglook records</a>
+                      <small class="project__style">Goa trance</small>
+                      <small class="project__year">2011</small>
                     </div>
                   </div>
                 </div>
@@ -49,13 +50,14 @@
                   <a class="project__in-title" href="<?= $released_title_urls['gamayun_tale']?>">various - Gamayun Tale</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="<?=$released__tracks_urls['purple_imagination'] ?>">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
                     </div>
                     <span class="project__track-name">Purple Imagination</span>
                     <div class="project__track-stats">
+                      <span class="project__label"><a class="project__label" href="#">Lookinglook records</a></span>
                       <span class="project__style">Goa trance</span>
                       <span class="project__year">2013</span>
                     </div>
@@ -81,13 +83,14 @@
                   <a class="project__in-title" href="<?= $released_title_urls['spiritual_doping']?>">various - spiritual doping</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="<?=$released__tracks_urls['the_truth_is_out_there'] ?>">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
                     </div>
                     <span class="project__track-name">The Truth Is Out There</span>
                     <div class="project__track-stats">
+                      <a class="project__label" href="#">Neogoa</a>
                       <span class="project__style">Goa trance</span>
                       <span class="project__year">2013</span>
                     </div>
@@ -106,13 +109,14 @@
                   <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol3']?>">various - Goa Meditation vol.3</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio class="project__player" controls src="/media/cc0-audio/t-rex-roar.mp3">
+                      <audio class="project__player" controls src="<?=$released__tracks_urls['storm'] ?>">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
                     </div>
                     <span class="project__track-name">Storm</span>
                     <div class="project__track-stats">
+                      <a class="project__label" href="">Timewarp records</a>
                       <span class="project__style">Goa trance</span>
                       <span class="project__year">2020</span>
                     </div>
@@ -139,7 +143,7 @@
                   <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol2']?>">various - Goa Meditation vol.2</a>
                   <div class="project__track-info">
                     <div class="project__sound">
-                      <audio class="project__player" controls src="audio/shankey_infinity_in_infinity.mp3">
+                      <audio class="project__player" controls src="<?=$released__tracks_urls['infinity_in_infinity'] ?>">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
@@ -147,6 +151,7 @@
                     <span class="project__track-name">Infinity in Infinity</span>
 
                     <div class="project__track-stats">
+                      <a class="project__label" href="">Timewarp records</a>
                       <span class="project__style">Goa trance</span>
                       <span class="project__year">2018</span>
                     </div>

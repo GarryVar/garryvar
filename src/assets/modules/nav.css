@@ -6,6 +6,10 @@
   height: 60px;
 }
 
+.nav__item--disabled a {
+  color: grey;
+}
+
 .nav__link {
   position: relative;
 
@@ -25,7 +29,7 @@
   content: "";
 
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 50%;
 
 
@@ -37,17 +41,15 @@
 
 .nav__link[href]:hover,
 .nav__link[href]:focus {
-  color: var(--basic-red);
+  opacity: 0.3;
 }
 
 .nav__link[href]:hover.nav__link::after,
 .nav__link[href]:focus.nav__link::after {
-  background-color: var(--basic-red);
   transform: translateX(-50%);
 }
 
-.nav__link--current {
-  font-weight: bolder;
+.nav__link--current.nav__link::after {
   background-color: var(--basic-red);
 }
 

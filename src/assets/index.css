@@ -3,9 +3,13 @@
 @import "variables.css";
 @import "container.css";
 
+@import "modules/page.css";
 @import "modules/header.css";
+@import "modules/home.css";
 @import "modules/project.css";
 @import "modules/nav.css";
 @import "modules/artist.css";
 @import "modules/toggle.css";
 @import "modules/states.css";
+@import "modules/footer.css";
+@import "modules/atrs.css";

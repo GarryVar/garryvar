@@ -91,7 +91,7 @@ exports.scripts = scripts;
 
 //indexPhp
 const indexPhp = () => {
-  return gulp.src('src/index.php')
+  return gulp.src('src/*.php')
     .pipe(gulp.dest(host.serverDir))
     .pipe(bs.stream({stream: true}))
 }
