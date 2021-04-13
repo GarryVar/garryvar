@@ -3,19 +3,34 @@
 <footer class="footer page__footer">
   <div class="footer__inner container">
     <p class="footer__copyright">© GarryVar, 2021</p>
-    <div class="footer__links">
-      <h2 class="footer__links-title">My socials</h2>
-      <ul class="footer__links-list">
-        <li class="footer__links-item">
-          <a class="footer__links-link" href="https://github.com/GarryVar">Github</a>
+    <div class="footer__socials">
+      <h2 class="footer__socials-title">My socials</h2>
+      <ul class="footer__socials-list">
+        <li>
+          <a class="footer__socials-link" href="https://github.com/GarryVar">
+            <svg class="footer__socials-icon" width="20" height="20">
+              <use xlink:href="img/sprite.svg#github"></use>
+            </svg>
+            <span>Github</span>
+          </a>
         </li>
 
-        <li class="footer__links-item">
-          <a class="footer__links-link" href="">Soundcloud</a>
+        <li>
+          <a class="footer__socials-link" href="">
+            <svg class="footer__socials-icon" width="20" height="20">
+              <use xlink:href="img/sprite.svg#soundcloud"></use>
+            </svg>
+            <span>Soundcloud</span>
+          </a>
         </li>
 
-        <li class="footer__links-item">
-          <a class="footer__links-link" href="">Facebook</a>
+        <li>
+          <a class="footer__socials-link" href="">
+            <svg class="footer__socials-icon" width="20" height="20">
+              <use xlink:href="img/sprite.svg#facebook"></use>
+            </svg>
+            <span>Facebook</span>
+          </a>
         </li>
       </ul>
     </div>

@@ -12,7 +12,7 @@
 </head>
 
 	<body class="page">
-		<header class="header header--sticky <?=$header_start_bg?>">
+		<header class="header header--sticky <?=$header_start_bg?><?=$header_arts_bg?>">
 			<div class="header__wrapper">
 				<a class="header__logo" href="home.php">Garryvar.ru</a>
 
@@ -30,13 +30,18 @@
 						</li>
 
             <li class="nav__item">
-              <a class="nav__link" href="<?= $nav_links['sedona'] ?>">Sedona</a>
+              <a class="nav__link <?=$current_page_sound?>" href="sounds.php">Sound Projects</a>
             </li>
 
             <li class="nav__item">
-              <a class="nav__link <?=$current_page_sound?>" href="sounds.php">Sounds</a>
+              <a class="nav__link <?=$current_page_arts?>" href="arts.php">Arts</a>
             </li>
-					</ul>
+
+            <li class="nav__item nav__item--disabled">
+              <a class="nav__link">Sedona</a>
+            </li>
+
+          </ul>
 				</nav>
 			</div>
 		</header>
