@@ -34,7 +34,6 @@ $released_title_urls = [
   'goa_meditation_vol3' => 'https://www.discogs.com/Sky-Technology-Goa-Meditation-vol-3/release/16929132'
 ];
 
-  require ('releses_bd.php');
   $current_page = '';
   $current_page_sound = 'nav__link--current';
   require ('components/header.php');

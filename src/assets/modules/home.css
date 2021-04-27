@@ -1,46 +1,58 @@
 .home {
   color: var(--basic-white);
   font-family: 'Zilla Slab', serif;
-  background-color: var(--basic-dark-blue);
 
-  height: inherit;
+  background-color: var(--basic-dark-gray);
+  background-image: url("../../img/bg.jpg");
 }
 
 .home__inner {
   display: grid;
   grid-column-gap: 10px;
-  grid-template-columns: min-content 1fr;
+  grid-row-gap: 20px;
 
-  padding-top: 60px;
-  padding-bottom: 20px;
+
+  grid-template-areas: "name  text"
+    "user user";
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.home__name {
+  grid-area: name;
+  margin: 0;
+
+  font-size: 20px;
 }
 
 .home__user {
-  width: 55px;
-  height: 55px;
+  grid-area: user;
+  width: 100%;
+  height: auto;
 
   overflow: hidden;
 
   background-color: var(--basic-current);
-  border-radius: 50%;
 }
 
-.home__title {
+.home__text {
+  grid-area: text;
   position: relative;
   margin: 0;
 
-  font-size: 1.5em;
   font-weight: lighter;
-  text-align: left;
+  text-align: right;
   letter-spacing: 1.2px;
-/*  background: linear-gradient(to left, var(--basic-dark-blue) 50%, var(--basic-current) 50%);*/
 }
 
-.home__title p {
+.home__text p {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8em;
 }
 
-.home__title::before {
+.home__text::before {
   content: "";
   position: absolute;
   top: 0;
@@ -53,44 +65,55 @@
 
 
 @media(min-width: 480px) {
-  .home__title {
-    font-size: 32px;
+  .home__name {
+    align-self: center;
+    font-size: 2em;
+  }
+}
+
+@media(min-width: 640px) {
+  .home__name {
+    font-size: 3em;
+  }
+
+  .home__inner {
+    grid-template-areas: "name name name"
+      "user user text";
+  }
+
+  .home__text {
+    align-self: center;
+    font-size: 2em;
   }
 
   .home__user {
-    width: 100px;
-    height: 100px;
-  }
+    width: 250px;
+    height: 250px;
 
+    border-radius: 50%;
+  }
 }
 
 @media(min-width: 768px) {
   .home__inner {
-    column-gap: 20px;
-
-    padding-top: 60px;
+    grid-template-areas: "user name name"
+        "user text text"
   }
 
   .home__user {
-    width: 120px;
-    height: 120px;
+    width: 320px;
+    height: 320px;
   }
 
-  .home__title p {
+  .home__name {
+    justify-self: center;
+    font-size: 4.5em;
+  }
+
+  .home__text p {
     font-size: 1.3em;
+    text-align: center;
+    justify-self: start;
   }
 }
-
-@media (min-width: 1024px) {
-  .home__title {
-    max-width: 65%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .home__title {
-    max-width: 50%;
-  }
-}
-
 

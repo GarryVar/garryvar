@@ -1,4 +1,4 @@
 <?php
-require ('src/components/header.php');
-$footer_bg = 'footer--sounds';
-require ('src/components/footer.php');
+require ('components/header.php');
+require ('components/arts-module.php');
+require ('components/footer.php');

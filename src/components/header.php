@@ -18,7 +18,7 @@
 
 				<button class="header__toggle toggle" type="button">
           <svg class="toggle__icon" width="32" height="32">
-            <use class="toggle__icon--menu" class="" xlink:href="img/sprite.svg#burger"></use>
+            <use class="toggle__icon--menu" xlink:href="img/sprite.svg#burger"></use>
             <use class="toggle__icon--close hidden" xlink:href="img/sprite.svg#close"></use>
           </svg>
         </button>
@@ -31,14 +31,6 @@
 
             <li class="nav__item">
               <a class="nav__link <?=$current_page_sound?>" href="sounds.php">Sound Projects</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link <?=$current_page_arts?>" href="arts.php">Arts</a>
-            </li>
-
-            <li class="nav__item nav__item--disabled">
-              <a class="nav__link">Sedona</a>
             </li>
 
           </ul>

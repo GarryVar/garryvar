@@ -1,19 +1,20 @@
 .footer {
   color: var(--basic-white);
   font-family: 'Zilla Slab', serif;
-  background-color: #11395a;
 
-  box-shadow: inset 1px 11px 13px 0  #022847;
+  border-top: 1px solid var(--basic-gray);
 }
 
 .footer__inner {
-  display: flex;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .footer__copyright {
   margin: 0;
+  padding: 10px 0;
+
+  background-color: var(--basic-black);
+  text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -33,7 +34,6 @@
 
 .footer__socials-list {
   display: flex;
-  justify-content: center;
 }
 
 .footer__socials-list li {
@@ -55,7 +55,7 @@
 }
 
 .footer__socials-icon {
-  fill: var(--basic-current);
+  fill: var(--basic-red);
 
   width: 25px;
   height: 25px;
