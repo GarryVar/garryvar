@@ -76,7 +76,7 @@ exports.styles = styles;
 
 //Scripts
 const scripts = () => {
-  return gulp.src('src/scripts/**/util.js')
+  return gulp.src('src/scripts/**/*.js')
     .pipe(babel({
       presets: ['@babel/preset-env']
     }))
@@ -144,7 +144,7 @@ const sync = () => {
     ui: false
   })
   gulp.watch('src/assets/**/*.css', gulp.series(styles, refresh));
-  gulp.watch('src/scripts/**/util.js', gulp.series(scripts, refresh));
+  gulp.watch('src/scripts/**/*.js', gulp.series(scripts, refresh));
   gulp.watch('src/*.php', gulp.series(indexPhp, refresh));
   gulp.watch('src/components/**/*.php', gulp.series(componentsPhp, refresh));
 };
