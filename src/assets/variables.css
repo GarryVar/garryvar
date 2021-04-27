@@ -6,8 +6,11 @@
   --basic-simple-black: #000000;
   --basic-black: #262626;
   --basic-dark-black: #333333;
+  --basic-dark-gray: #0e0c0c;
   --basic-purple: #1c0a35;
   --basic-current: #2196f3;
   --basic-dark-blue: #004073;
   --basic-transparent-blue: #004073f2;
+  --basic-hyper-link: #255af0;
+  --basic-light: #f8f8f8;
 }
