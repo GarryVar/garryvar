@@ -24,7 +24,7 @@
         <a href="https://htmlacademy.ru">HTML-Academy.</a>
       </p>
       <p class="text about__text about__text--3">Ready to implement excellent projects with wonderful people.</p>
-      <p class="text about__text about__text--4">I am also interested in writing electronic music in the style of <a href="https://en.wikipedia.org/wiki/Goa_trance">Goa trance</a>, my tracks were released on several labels at different times </p>
+      <p class="text about__text about__text--4">I am also interested in writing electronic music in the style of <a href="https://en.wikipedia.org/wiki/Goa_trance">Goa trance</a>, <a href="sounds.php">my tracks</a> were released on several labels at different times </p>
     </div>
   </div>
 </section>
