@@ -82,7 +82,7 @@ const scripts = () => {
     }))
     .pipe(rename({suffix: '.min'}))
     .pipe(terser())
-    .pipe(gulp.dest(host.getPath('scripts')))
+    .pipe(gulp.dest(host.getPath('dist/scripts')))
     .pipe(bs.stream({stream: true}))
 };
 exports.scripts = scripts;
