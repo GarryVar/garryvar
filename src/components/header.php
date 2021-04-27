@@ -33,14 +33,6 @@
               <a class="nav__link <?=$current_page_sound?>" href="sounds.php">Sound Projects</a>
             </li>
 
-            <li class="nav__item">
-              <a class="nav__link <?=$current_page_arts?>" href="arts.php">Arts</a>
-            </li>
-
-            <li class="nav__item nav__item--disabled">
-              <a class="nav__link">Sedona</a>
-            </li>
-
           </ul>
 				</nav>
 			</div>
