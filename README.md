@@ -1,5 +1,5 @@
 ### Hi there 👋
-## Here's my website preository
+## Here's 'garryvar.ru' preository
 ---
  🔭 I’m currently working on garrvar.ru
  ### 🚀 [Watch site](http://garryvar.ru)
