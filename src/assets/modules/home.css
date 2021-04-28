@@ -3,6 +3,7 @@
   font-family: 'Zilla Slab', serif;
 
   background-color: var(--basic-dark-gray);
+
   background-image: url("../../img/bg.jpg");
   background-position-y: -800px;
 }
@@ -73,18 +74,24 @@
 }
 
 @media(min-width: 640px) {
-  .home__name {
-    font-size: 3em;
+  .home {
+    background-position: 0;
+    background-size: cover;
   }
 
   .home__inner {
     grid-template-areas: "name name name"
       "user user text";
+    min-height: 100vh;
+  }
+
+  .home__name {
+    font-size: 3em;
   }
 
   .home__text {
-    align-self: center;
     font-size: 2em;
+    align-self: center;
   }
 
   .home__user {
@@ -102,11 +109,17 @@
   }
 
   .home__user {
+    align-self: center;
     width: 320px;
     height: 320px;
   }
 
+  .home__text {
+    align-self: start;
+  }
+
   .home__name {
+    align-self: end;
     justify-self: center;
     font-size: 4.5em;
   }
@@ -114,7 +127,6 @@
   .home__text p {
     font-size: 1.3em;
     text-align: center;
-    justify-self: start;
   }
 }
 
