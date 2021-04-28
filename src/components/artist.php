@@ -12,13 +12,14 @@
           <li class="project">
             <h3 class="project__title">Jyotish</h3>
             <ol class="project__track-list">
-              <li class="project__track">
-                <div class="project__cover">
+              <li class="project__track" data-aos="fade-left">
+                <div class="project__cover" data-aos="fade-right">
                   <img
                     src="<?=$released_images_urls['dancing_mavka'] ?>"
                     srcset="<?=$released_images_urls['dancing_mavka_webp'] ?>"
                     loding="lazy"
-                    alt="cd compilation 'dancing mavka'">
+                    alt="cd compilation 'dancing mavka'"
+                    data-aos="zoom-in-up">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['dancing_mavka']?>">Various - Dancing Mavka</a>
@@ -38,13 +39,14 @@
                   </div>
                 </div>
               </li>
-              <li class="project__track">
-                <div class="project__cover">
+              <li class="project__track" data-aos="fade-right">
+                <div class="project__cover" data-aos="fade-right">
                   <img
                     src="<?=$released_images_urls['gamayun_tale'] ?>"
                     srcset="<?=$released_images_urls['gamayun_tale_webp'] ?>"
                     loding="lazy"
-                    alt="cd compilation 'gamayun tale'">
+                    alt="cd compilation 'gamayun tale'"
+                    data-aos="zoom-in-up">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['gamayun_tale']?>">various - Gamayun Tale</a>
@@ -71,13 +73,14 @@
           <li class="project">
             <h3 class="project__title">S.i.O.D</h3>
             <ol class="project__track-list">
-              <li class="project__track">
+              <li class="project__track" data-aos="fade-left">
                 <div class="project__cover">
                   <img
                     src="<?=$released_images_urls['spiritual_doping'] ?>"
                     srcset="<?=$released_images_urls['spiritual_doping_webp'] ?>"
                     loding="lazy"
-                    alt="cd compilation 'spiritual doping'">
+                    alt="cd compilation 'spiritual doping'"
+                    data-aos="zoom-in-up">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['spiritual_doping']?>">various - spiritual doping</a>
@@ -97,13 +100,14 @@
                   </div>
                 </div>
               </li>
-              <li class="project__track">
+              <li class="project__track" data-aos="fade-right">
                 <div class="project__cover">
                   <img
                     src="<?= $released_images_urls['goa_meditation_vol3']?>"
                     srcset="<?= $released_images_urls['goa_meditation_vol3_webp']?>"
                     loding="lazy"
-                    alt="cd compilation 'Goa Meditation vol3'">
+                    alt="cd compilation 'Goa Meditation vol3'"
+                    data-aos="zoom-in-up">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol3']?>">various - Goa Meditation vol.3</a>
@@ -131,13 +135,14 @@
           <li class="project">
             <h3 class="project__title">Shankey</h3>
             <ol class="project__track-list">
-              <li class="project__track">
+              <li class="project__track" data-aos="fade-left">
                 <div class="project__cover">
                   <img
                     src="<?=$released_images_urls['goa_meditation_vol2'] ?>"
                     srcset="<?= $released_images_urls['goa_meditation_vol2_webp']?>"
                     loding="lazy"
-                    alt="cd compilation 'goa meditation vol2'">
+                    alt="cd compilation 'goa meditation vol2'"
+                    data-aos="zoom-in-up">
                 </div>
                 <div class="project__info">
                   <a class="project__in-title" href="<?= $released_title_urls['goa_meditation_vol2']?>">various - Goa Meditation vol.2</a>
