@@ -18,3 +18,16 @@
 .page__footer {
   margin-top: auto;
 }
+
+.page__event-js {
+  position: fixed;
+
+  top: 100px;
+  left: 50px;
+
+  padding: 10px;
+
+  background-color: orange;
+
+  z-index: 999999;
+}
