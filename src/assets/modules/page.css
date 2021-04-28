@@ -1,4 +1,6 @@
 .page {
+  position: relative;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content 1fr min-content;
@@ -17,4 +19,31 @@
 
 .page__footer {
   margin-top: auto;
+}
+
+.page__github-repo {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+
+  background-color: var(--basic-gray);
+  border-radius: 50%;
+}
+
+.page__github-repo svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--basic-red);
+}
+
+.page__github-repo:hover svg,
+.page__github-repo:focus svg {
+  opacity: 0.3;
 }
