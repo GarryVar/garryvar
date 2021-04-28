@@ -1,7 +1,6 @@
 ### Hi there 👋
 ---
- 🔭 I’m currently working on garrvar.ru
-### 🚀 [garryvar.ru](http://garryvar.ru)
+ 🔭 I’m currently working on [garryvar.ru](http://garryvar.ru)
 <!--
 **GarryVar/garryvar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
