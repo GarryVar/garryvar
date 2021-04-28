@@ -4,6 +4,7 @@
 
   background-color: var(--basic-dark-gray);
   background-image: url("../../img/bg.jpg");
+  background-position-y: -800px;
 }
 
 .home__inner {

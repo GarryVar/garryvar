@@ -60,7 +60,7 @@ exports.clean = clean;
 
 // Styles
 const styles = () => {
-  return gulp.src('./src/assets/index.css')
+  return gulp.src('src/assets/index.css')
     .pipe(postcss([
       postcssImport(),
       autoprefixer(),
@@ -82,7 +82,7 @@ const scripts = () => {
     }))
     .pipe(rename({suffix: '.min'}))
     .pipe(terser())
-    .pipe(gulp.dest(host.getPath('dist/scripts')))
+    .pipe(gulp.dest(host.getPath('scripts')))
     .pipe(bs.stream({stream: true}))
 };
 exports.scripts = scripts;

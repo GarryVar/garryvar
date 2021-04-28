@@ -38,8 +38,6 @@
         <p class="footer__copyright">© GarryVar, 2021</p>
       </div>
     </footer>
-    <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
     <script src="scripts/util.min.js"></script>
-    <script src="scripts/start-page.min.js"></script>
   </body>
 </html>
