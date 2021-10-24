@@ -24,7 +24,7 @@
 
 
 .project__track-list {
-  display: grid;
+  /*display: grid;*/
   grid-gap: 20px;
   grid-auto-flow: dense;
   grid-template-columns: 1fr;
