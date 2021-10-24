@@ -12,11 +12,6 @@
 	<title><?= $title ?></title>
 </head>
 	<body class="page">
-    <a href="https://github.com/GarryVar/garryvar" class="page__github-repo" target="_blank">
-      <svg>
-          <use xlink:href="img/sprite.svg#github"></use>
-      </svg>
-    </a>
 		<header class="header header--sticky <?=$header_start_bg?><?=$header_arts_bg?>">
 			<div class="header__wrapper">
 				<a class="header__logo" href="home.php">Garryvar.ru</a>

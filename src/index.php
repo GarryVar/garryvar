@@ -1,5 +1,5 @@
 <?php
-	$title = 'garryvar.ru';
+	$title = 'Hi, I\'m Igor – junior frontend developer from Simferopol. I\'m interesting in web development: html, css, native javascript and other frontend technologies';
 	$alt = 'logo';
 
 
