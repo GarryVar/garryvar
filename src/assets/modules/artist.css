@@ -35,8 +35,9 @@
 }
 
 .artist__discography {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
   width: 100%;
 }
 
@@ -53,6 +54,10 @@
 }
 
 @media(min-width: 1024px) {
+  .artist__discography {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .artist__status {
     max-width: 280px;
     text-align: left;
