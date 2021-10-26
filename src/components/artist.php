@@ -1,5 +1,4 @@
 <section class="artist-page">
-  <!--Released tracks-->
   <article class="artist">
     <div class="artist__inner">
       <div class="artist__status">
@@ -31,6 +30,7 @@
                         <code>audio</code> element.
                       </audio>
                     </div>
+
                     <span class="project__track-name"><?= $track['track_name'] ?></span>
                     <div class="project__track-stats">
                       <a class="project__label" href="#"><?= $track['label']?></a>
@@ -49,10 +49,4 @@
 
     </div>
   </article>
-
-  <!--Unreleased tracks-->
-  <!--<div class="artist__unreleased">
-    <h2 class="artist__release-title">Unreleased track</h2>
-    <ul class="artist__discography"></ul>
-  </div>-->
 </section>
