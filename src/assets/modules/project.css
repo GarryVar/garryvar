@@ -23,19 +23,6 @@
 }
 
 
-.project__track-list {
-  /*display: grid;*/
-  grid-gap: 20px;
-  grid-auto-flow: dense;
-  grid-template-columns: 1fr;
-
-  margin: auto;
-}
-
-.project__track {
-  margin-bottom: 20px;
-}
-
 .project__cover {
   display: flex;
   width: 100%;
@@ -46,7 +33,6 @@
 .project__info {
   padding-top: 10px;
   flex-grow: 2;
-  margin-left: 10px;
 }
 
 .project__in-title {
@@ -82,10 +68,13 @@ audio {
 
 .project__style,
 .project__year {
-  padding: 0 5px;
 
   font-size: 12px;
   order: -1;
+}
+
+.project__label {
+  margin: 0;
 }
 
 
