@@ -41,6 +41,13 @@
   width: 100%;
 }
 
+.artist__project {
+  padding: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  border: 1px solid #242424;
+}
+
 @media(min-width: 768px) {
   .artist__status {
     justify-content: flex-start;
