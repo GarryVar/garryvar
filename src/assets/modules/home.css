@@ -74,9 +74,11 @@
   }
 
   .home__inner {
-    grid-template-areas: "name name name"
-      "user user text";
-    min-height: 100vh;
+    grid-template-areas:
+      "name name name"
+      "text text text"
+      "user user user";
+    height: 420px;
   }
 
   .home__name {
@@ -98,8 +100,9 @@
 
 @media(min-width: 768px) {
   .home__inner {
-    grid-template-areas: "user name name"
-        "user text text"
+    grid-template-areas:
+      "user name name"
+      "user text text";
   }
 
   .home__user {
