@@ -9,20 +9,19 @@
         <ul class="artist__discography">
 
           <?php foreach($tracks as $track) : ?>
-          <li class="project">
+          <li class="project artist__project" data-aos="fade-bottom">
             <div class="project__track-list">
-              <div class="project__track" data-aos="fade-bottom">
-                <div class="project__cover" data-aos="fade-right">
+              <div class="project__track">
+                <div class="project__cover">
                   <img
                     src="<?= $track['cover_jpg'] ?>"
                     srcset="<?= $track['cover_webp']?>"
                     loding="lazy"
-                    alt="cd compilation <?= $track['release_title']?>"
-                    data-aos="zoom-in-up">
+                    alt="cd compilation <?= $track['release_title']?>">
                 </div>
 
                 <div class="project__info">
-                  <a class="project__in-title" href=""></a>
+                  <span class="project__in-title" href=""></span>
                   <div class="project__track-info">
                     <div class="project__sound">
                       <audio class="project__player" controls src="<?=  $track['track_path'] ?>">
@@ -33,7 +32,7 @@
 
                     <span class="project__track-name"><?= $track['track_name'] ?></span>
                     <div class="project__track-stats">
-                      <a class="project__label" href="#"><?= $track['label']?></a>
+                      <p class="project__label"><?= $track['label']?></p>
                       <small class="project__style"><?= $track['style'] ?></small>
                       <small class="project__year"><?= $track['year'] ?></small>
                     </div>
