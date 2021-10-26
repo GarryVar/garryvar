@@ -24,8 +24,6 @@
 
 
 .project__cover {
-  display: flex;
-  width: 100%;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -45,7 +43,6 @@
 .project__sound {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
   width: 100%;
 }
 
@@ -79,23 +76,21 @@ audio {
 
 
 @media(min-width: 480px) {
+
   .project__track-list {
     margin: 0;
     width: auto;
   }
 
   .project__track {
-    display: flex;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
   }
 
   .project__in-title {
     margin-bottom: 0;
     font-size: 18px;
-  }
-
-  .project__cover {
-    margin: auto;
-    max-width: 180px;
   }
 
   .project__track-name {
@@ -110,7 +105,6 @@ audio {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 10px;
     padding-top: 0;
   }
 
@@ -120,12 +114,8 @@ audio {
 }
 
 @media(min-width: 640px) {
-  .project__cover {
-    max-width: 200px;
-  }
-
-  .project__info {
-    margin-left: 20px;
+  .project__track {
+    grid-template-columns: 200px 1fr;
   }
 
   .project__in-title {
@@ -150,9 +140,6 @@ audio {
     grid-template-columns: 1fr 1fr;
   }
 
-  .project__cover {
-    margin: 0;
-  }
   .project__in-title {
     font-size: 20px;
   }
