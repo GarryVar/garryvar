@@ -124,7 +124,8 @@ const copy = () => {
   return gulp.src([
     'src/components/**/*.php',
     'src/img/**',
-    'src/audio/**'
+    'src/audio/**',
+    'src/*.htaccess'
   ],
     {base: 'src'}
     )
