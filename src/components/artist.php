@@ -21,16 +21,15 @@
                 </div>
 
                 <div class="project__info">
-                  <span class="project__in-title" href=""></span>
                   <div class="project__track-info">
+                    <span class="project__name"><?= $track['project_title'] ?></span>
+                    <span class="project__track-name"><?= $track['track_name'] ?></span>
                     <div class="project__sound">
                       <audio class="project__player" controls src="<?=  $track['track_path'] ?>">
                         Your browser does not support the
                         <code>audio</code> element.
                       </audio>
                     </div>
-
-                    <span class="project__track-name"><?= $track['track_name'] ?></span>
                     <div class="project__track-stats">
                       <p class="project__label"><?= $track['label']?></p>
                       <small class="project__style"><?= $track['style'] ?></small>

@@ -16,12 +16,10 @@
   align-items: center;
 
   position: relative;
-
   margin-bottom: 10px;
 
   text-align: left;
 }
-
 
 .project__cover {
   border-radius: 5px;
@@ -31,13 +29,6 @@
 .project__info {
   padding-top: 10px;
   flex-grow: 2;
-}
-
-.project__in-title {
-  margin-bottom: 10px;
-  width: 100%;
-
-  font-size: 20px;
 }
 
 .project__sound {
@@ -55,25 +46,22 @@ audio {
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-between;
+  gap: 20px;
 }
 
+.project__name,
 .project__track-name {
-  order: -1;
-  margin-bottom: 10px;
   font-size: 18px;
 }
 
 .project__style,
 .project__year {
-
   font-size: 12px;
-  order: -1;
 }
 
 .project__label {
   margin: 0;
 }
-
 
 @media(min-width: 480px) {
 
@@ -86,19 +74,6 @@ audio {
     display: grid;
     grid-template-columns: 180px 1fr;
     gap: 20px;
-  }
-
-  .project__in-title {
-    margin-bottom: 0;
-    font-size: 18px;
-  }
-
-  .project__track-name {
-    margin-bottom: 0;
-  }
-
-  .project__sound {
-    margin-bottom: 0;
   }
 
   .project__info {
