@@ -125,7 +125,10 @@ const copy = () => {
     'src/components/**/*.php',
     'src/img/**',
     'src/audio/**',
-    'src/*.htaccess'
+    'src/*.htaccess',
+    'src/*.ico',
+    'src/*.png',
+    'src/*.webmanifest'
   ],
     {base: 'src'}
     )
