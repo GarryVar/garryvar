@@ -2,7 +2,7 @@
   require('releses_bd.php');
   $tracks = get_release();
 
-  $title = 'Garryvar прослушать мои треки можно на этой странице';
+  $title = 'Garryvar | Sounds here you can listning my own tracks';
 
   $current_page = '';
   $current_page_sound = 'nav__link--current';
