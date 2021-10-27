@@ -32,7 +32,7 @@
 				<nav class="nav header__nav">
 					<ul class="nav__list">
 						<li class="nav__item">
-							<a href="home.php" class="nav__link <?=$current_page?>">Home</a>
+							<a href="/" class="nav__link <?=$current_page?>">Home</a>
 						</li>
 
             <li class="nav__item">
