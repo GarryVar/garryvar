@@ -128,7 +128,8 @@ const copy = () => {
     'src/*.htaccess',
     'src/*.ico',
     'src/*.png',
-    'src/*.webmanifest'
+    'src/*.webmanifest',
+    'src/robots.txt'
   ],
     {base: 'src'}
     )
