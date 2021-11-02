@@ -7,7 +7,7 @@ function get_release() {
       'cover_jpg' => 'img/covers/released_dancing_mavka.jpg',
       'cover_webp' => 'img/covers/released_dancing_mavka.webp',
       'release_title' => 'Various - Dancing Mavka',
-      'track_path' => 'audio/1000_little_indians.mp3',
+      'track_path' => 'audio/1000_little_indians.mp3' ,
       'label' => 'Lookinglook records',
       'style' => 'Goa trance',
       'year' => '2011'
