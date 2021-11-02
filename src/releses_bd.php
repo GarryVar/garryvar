@@ -1,7 +1,4 @@
 <?php
-
-
-
 function get_release() {
   return [
     '1' => [
@@ -13,11 +10,8 @@ function get_release() {
       'track_path' => 'audio/jyotish_1000_little_indians.mp3',
       'label' => 'Lookinglook records',
       'style' => 'Goa trance',
-      'year' => '2011',
-
-
+      'year' => '2011'
     ],
-
     '2' => [
       'project_title' => 'Jyotish',
       'cover_jpg' => 'img/covers/released_gamayun_tale.jpg',
@@ -29,7 +23,6 @@ function get_release() {
       'style' => 'Goa trance',
       'year' => '2013',
     ],
-
     '3' => [
       'project_title' => 'S.i.O.D',
       'cover_jpg' => 'img/covers/released_spiritual_doping.jpg',
@@ -41,7 +34,6 @@ function get_release() {
       'style' => 'Goa trance',
       'year' => '2018',
     ],
-
     '4' => [
       'project_title' => 'S.i.O.D',
       'cover_jpg' => 'img/covers/released_goa_meditation_vol3.jpg',
@@ -53,7 +45,6 @@ function get_release() {
       'style' => 'Goa trance',
       'year' => '2020',
     ],
-
     '5' => [
       'project_title' => 'Shankey',
       'cover_jpg' => 'img/covers/released_goa_meditation_vol2.jpg',
