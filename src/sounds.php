@@ -1,5 +1,5 @@
 <?php
-  require('releses_bd.php');
+  require('releses_db.php');
   $tracks = get_release();
 
   $title = 'Garryvar | Sounds here you can listning my own tracks';
