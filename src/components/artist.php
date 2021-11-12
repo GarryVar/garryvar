@@ -1,4 +1,5 @@
 <section class="artist-page">
+  <h2 class="visually-hidden">Artist tracks</h2>
   <article class="artist">
     <div class="artist__inner">
       <div class="artist__status">
