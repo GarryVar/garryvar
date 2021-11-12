@@ -16,7 +16,6 @@
                   <img
                     src="<?= $track['cover_jpg'] ?>"
                     srcset="<?= $track['cover_webp']?>"
-                    loding="lazy"
                     alt="cd compilation <?= $track['release_title']?>">
                 </div>
 
