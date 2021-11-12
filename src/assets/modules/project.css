@@ -16,29 +16,12 @@
   align-items: center;
 
   position: relative;
-
   margin-bottom: 10px;
 
   text-align: left;
 }
 
-
-.project__track-list {
-  /*display: grid;*/
-  grid-gap: 20px;
-  grid-auto-flow: dense;
-  grid-template-columns: 1fr;
-
-  margin: auto;
-}
-
-.project__track {
-  margin-bottom: 20px;
-}
-
 .project__cover {
-  display: flex;
-  width: 100%;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -46,20 +29,11 @@
 .project__info {
   padding-top: 10px;
   flex-grow: 2;
-  margin-left: 10px;
-}
-
-.project__in-title {
-  margin-bottom: 10px;
-  width: 100%;
-
-  font-size: 20px;
 }
 
 .project__sound {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
   width: 100%;
 }
 
@@ -72,56 +46,40 @@ audio {
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-between;
+  gap: 20px;
 }
 
+.project__name,
 .project__track-name {
-  order: -1;
-  margin-bottom: 10px;
   font-size: 18px;
 }
 
 .project__style,
 .project__year {
-  padding: 0 5px;
-
   font-size: 12px;
-  order: -1;
 }
 
+.project__label {
+  margin: 0;
+}
 
 @media(min-width: 480px) {
+
   .project__track-list {
     margin: 0;
     width: auto;
   }
 
   .project__track {
-    display: flex;
-  }
-
-  .project__in-title {
-    margin-bottom: 0;
-    font-size: 18px;
-  }
-
-  .project__cover {
-    margin: auto;
-    max-width: 180px;
-  }
-
-  .project__track-name {
-    margin-bottom: 0;
-  }
-
-  .project__sound {
-    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
   }
 
   .project__info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 10px;
     padding-top: 0;
   }
 
@@ -131,12 +89,8 @@ audio {
 }
 
 @media(min-width: 640px) {
-  .project__cover {
-    max-width: 200px;
-  }
-
-  .project__info {
-    margin-left: 20px;
+  .project__track {
+    grid-template-columns: 200px 1fr;
   }
 
   .project__in-title {
@@ -161,9 +115,6 @@ audio {
     grid-template-columns: 1fr 1fr;
   }
 
-  .project__cover {
-    margin: 0;
-  }
   .project__in-title {
     font-size: 20px;
   }

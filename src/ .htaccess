@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:X-HTTPS} !1
+RewriteCond %{HTTP_HOST} ^garryvar\.ru$
+RewriteRule ^(.*)$ https://garryvar.ru/$1 [R=301,L]
