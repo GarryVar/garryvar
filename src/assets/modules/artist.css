@@ -48,6 +48,10 @@
   border: 1px solid var(--basic-black);
 }
 
+.artist__project:last-child {
+  grid-column: 1 / -1;
+}
+
 @media(min-width: 768px) {
   .artist__status {
     justify-content: flex-start;
